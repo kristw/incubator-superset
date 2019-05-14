@@ -76,3 +76,6 @@ celerybeat.pid
 geckodriver.log
 ghostdriver.log
 testCSV.csv
+
+apache_superset.egg-info/
+.terser-plugin-cache/
