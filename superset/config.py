@@ -216,7 +216,7 @@ CORS_OPTIONS = {
         'X-CSRFToken', 'Content-Type', 'Origin', 'X-Requested-With', 'Accept',
     ],
     'resources': ['^/superset/explore_json/*', '^/superset/csrf_token/$', '^/api/v1/query/*'],
-    'origins': ['https://dataportal-sandbox.d.musta.ch/'],
+    'origins': ['https://dataportal-sandbox.d.musta.ch/', 'http://localhost:9000', 'http://localhost:9001'],
 }
 
 # Chrome allows up to 6 open connections per domain at a time. When there are more
