@@ -247,7 +247,7 @@ CORS_OPTIONS = {
         'X-CSRFToken', 'Content-Type', 'Origin', 'X-Requested-With', 'Accept',
     ],
     'resources': ['^/superset/explore_json/*', '^/superset/csrf_token/$', '^/api/v1/query/*'],
-    'origins': ['http://localhost:9000', 'http://localhost:9001'],
+    'origins': ['http://localhost:9000', 'http://localhost:9001', 'http://i-012b1441499e5dc4c.inst.aws.airbnb.com', 'http://localhost:5000', 'http://localhost:5001'],
 }
 
 # Chrome allows up to 6 open connections per domain at a time. When there are more
